@@ -1,0 +1,6 @@
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\dominio\bin\Debug\dominio.dll
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\dominio\bin\Debug\dominio.pdb
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\dominio\obj\Debug\dominio.dll
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\dominio\obj\Debug\dominio.pdb

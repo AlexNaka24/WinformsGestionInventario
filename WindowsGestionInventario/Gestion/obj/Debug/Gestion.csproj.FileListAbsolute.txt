@@ -1,0 +1,10 @@
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\Debug\Gestion.exe.config
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\Debug\Gestion.exe
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\Debug\Gestion.pdb
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.csproj.AssemblyReference.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.Form1.resources
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.Properties.Resources.resources
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.csproj.GenerateResource.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.csproj.CoreCompileInputs.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.exe
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.pdb

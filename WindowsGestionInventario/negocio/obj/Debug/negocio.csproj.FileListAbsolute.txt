@@ -1,0 +1,9 @@
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\bin\Debug\negocio.dll
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\bin\Debug\negocio.pdb
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\bin\Debug\dominio.dll
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\bin\Debug\dominio.pdb
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\obj\Debug\negocio.csproj.Up2Date
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\obj\Debug\negocio.dll
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\negocio\obj\Debug\negocio.pdb
