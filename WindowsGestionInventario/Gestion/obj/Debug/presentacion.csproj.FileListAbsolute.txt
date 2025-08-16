@@ -3,7 +3,6 @@ D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\De
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\Debug\Gestion.pdb
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\presentacion.csproj.AssemblyReference.cache
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.exe.config
-D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.Form1.resources
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.Properties.Resources.resources
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\presentacion.csproj.GenerateResource.cache
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\presentacion.csproj.CoreCompileInputs.cache
@@ -14,3 +13,5 @@ D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\De
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\Debug\dominio.pdb
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\bin\Debug\negocio.pdb
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\presenta.D2D8CCE5.Up2Date
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.Form1.resources
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.frmAltaArticulo.resources

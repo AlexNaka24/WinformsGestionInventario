@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\Gestion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\Gestion.csproj|solutionrelative:gestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\Form1.cs",
               "RelativeDocumentMoniker": "Gestion\\Form1.cs",
               "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\Form1.cs",
               "RelativeToolTip": "Gestion\\Form1.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowFQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwI4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T02:51:57.789Z",
+              "WhenOpened": "2025-08-16T19:46:00.367Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\Form1.cs",
               "RelativeDocumentMoniker": "Gestion\\Form1.cs",
               "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Gestion\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T02:23:18.119Z",
+              "WhenOpened": "2025-08-16T19:45:58.391Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAltaArticulo.cs",
+              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "Gestion\\frmAltaArticulo.cs",
+              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaArticulo.cs",
+              "RelativeToolTip": "Gestion\\frmAltaArticulo.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T18:48:47.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "Gestion\\frmAltaArticulo.cs",
+              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion\\frmAltaArticulo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T18:20:47.533Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

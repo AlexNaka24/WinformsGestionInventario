@@ -18,12 +18,12 @@ namespace negocio
             try
             {
                 datos.setConsulta(@"
-                SELECT A.Id, Codigo, Nombre, A.Descripcion, IdCategoria, IdMarca, ImagenUrl, Precio, 
-                   M.Descripcion Marca, C.Descripcion Categoria
-                FROM ARTICULOS A
-                INNER JOIN MARCAS M ON A.IdMarca = M.Id
-                INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id
-                WHERE CODIGO NOT LIKE '%(BAJA)%'
+                    SELECT A.Id, Codigo, Nombre, A.Descripcion, IdCategoria, IdMarca, ImagenUrl, Precio, 
+                    M.Descripcion Marca, C.Descripcion Categoria
+                    FROM ARTICULOS A
+                    INNER JOIN MARCAS M ON A.IdMarca = M.Id
+                    INNER JOIN CATEGORIAS C ON A.IdCategoria = C.Id
+                    WHERE CODIGO NOT LIKE '%(BAJA)%'
                 ");
                 datos.ejecutarLectura();
 
