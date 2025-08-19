@@ -16,3 +16,4 @@ D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\De
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.frmAltaArticulo.resources
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.frmPrincipal.resources
 D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.frmRecuperar.resources
+D:\Repo GitHub\WinformsGestionInventario\WindowsGestionInventario\Gestion\obj\Debug\Gestion.frmAltaMarca.resources

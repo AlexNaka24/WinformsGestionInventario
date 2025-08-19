@@ -87,6 +87,12 @@ namespace Gestion
 
             btnRecuperar.BackColor = TemaColores.PanelBotones;
             btnRecuperar.ForeColor = TemaColores.FuenteIconos;
+
+            btnMarcas.FlatStyle = FlatStyle.Flat;
+            btnMarcas.FlatAppearance.BorderSize = 0;
+            btnMarcas.FlatAppearance.MouseOverBackColor = TemaColores.PanelBotones;
+            btnMarcas.BackColor = TemaColores.PanelBotones;
+            btnMarcas.ForeColor = TemaColores.FuenteIconos;
         }
 
         // metodos
@@ -138,7 +144,7 @@ namespace Gestion
             cargarDatos();
             cboCampo.Items.Add("Precio");
             cboCampo.Items.Add("Nombre");
-            cboCampo.Items.Add("Fabricante");
+            cboCampo.Items.Add("Categoria");
             cboCampo.SelectedIndex = 0; // Seleccionar el primer campo por defecto
 
             btnNuevoArticulo.Cursor = Cursors.Hand;
@@ -148,6 +154,7 @@ namespace Gestion
             btnBuscar.Cursor = Cursors.Hand;
             btnLimpiar.Cursor = Cursors.Hand;
             btnRecuperar.Cursor = Cursors.Hand;
+            btnMarcas.Cursor = Cursors.Hand;
         }
 
         private void dgvListadoArticulos_SelectionChanged(object sender, EventArgs e)
@@ -254,15 +261,18 @@ namespace Gestion
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            string campo = cboCampo.SelectedItem?.ToString() ?? "";
-            string criterio = cboCriterio.SelectedItem?.ToString() ?? "";
-            string filtro = txtFiltro.Text.Trim();
+            ArticuloNegocio negocio = new ArticuloNegocio();
+
 
             try
             {
-                ArticuloNegocio negocio = new ArticuloNegocio();
-                dgvListadoArticulos.DataSource = null; // limpiar antes de asignar
+                string campo = cboCampo.SelectedItem.ToString();
+                string criterio = cboCriterio.SelectedItem.ToString();
+                string filtro = txtFiltroAvanzado.Text.Trim();
+
                 dgvListadoArticulos.DataSource = negocio.filtrar(campo, criterio, filtro);
+
+
                 if (dgvListadoArticulos.Columns["UrlImg"] != null)
                     dgvListadoArticulos.Columns["UrlImg"].Visible = false;
                 if (dgvListadoArticulos.Columns["Tipo"] != null)
@@ -278,6 +288,19 @@ namespace Gestion
         {
             frmRecuperar frmRecuperar = new frmRecuperar();
             frmRecuperar.ShowDialog();
+            cargarDatos();
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            dgvListadoArticulos.DataSource = new ArticuloNegocio().listarArticulos();
+            txtFiltroAvanzado.Clear();
+        }
+
+        private void btnMarcas_Click(object sender, EventArgs e)
+        {
+            frmAltaMarca frmAltaMarca = new frmAltaMarca();
+            frmAltaMarca.ShowDialog();
             cargarDatos();
         }
     }

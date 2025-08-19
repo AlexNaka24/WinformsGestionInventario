@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6977402F-F4CD-4759-8F4C-8A66E7661D8F}|negocio\\negocio.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6977402F-F4CD-4759-8F4C-8A66E7661D8F}|negocio\\negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmrecuperar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmrecuperar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\gestion\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0AC31C3C-B3C8-4975-8CBC-4E4520BCB5B0}|Gestion\\presentacion.csproj|solutionrelative:gestion\\frmaltamarca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6977402F-F4CD-4759-8F4C-8A66E7661D8F}|negocio\\negocio.csproj|d:\\repo github\\winformsgestioninventario\\windowsgestioninventario\\negocio\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6977402F-F4CD-4759-8F4C-8A66E7661D8F}|negocio\\negocio.csproj|solutionrelative:negocio\\marcasnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ArticuloNegocio.cs",
-              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\negocio\\ArticuloNegocio.cs",
-              "RelativeDocumentMoniker": "negocio\\ArticuloNegocio.cs",
-              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\negocio\\ArticuloNegocio.cs",
-              "RelativeToolTip": "negocio\\ArticuloNegocio.cs",
-              "ViewState": "AgIAANIAAAAAAAAAAAAkwNwAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmAltaArticulo.cs",
+              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "Gestion\\frmAltaArticulo.cs",
+              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaArticulo.cs",
+              "RelativeToolTip": "Gestion\\frmAltaArticulo.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAwwIIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T17:17:01.128Z",
+              "WhenOpened": "2025-08-19T03:33:59.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmRecuperar.cs",
-              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmRecuperar.cs",
-              "RelativeDocumentMoniker": "Gestion\\frmRecuperar.cs",
-              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmRecuperar.cs",
-              "RelativeToolTip": "Gestion\\frmRecuperar.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAlwJcAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmAltaMarca.cs",
+              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaMarca.cs",
+              "RelativeDocumentMoniker": "Gestion\\frmAltaMarca.cs",
+              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaMarca.cs",
+              "RelativeToolTip": "Gestion\\frmAltaMarca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T17:15:28.503Z",
+              "WhenOpened": "2025-08-19T03:04:02.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "Gestion\\frmPrincipal.cs",
-              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmPrincipal.cs",
-              "RelativeToolTip": "Gestion\\frmPrincipal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAJAAAAAAAAAA==",
+              "Title": "frmAltaMarca.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaMarca.cs",
+              "RelativeDocumentMoniker": "Gestion\\frmAltaMarca.cs",
+              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\Gestion\\frmAltaMarca.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gestion\\frmAltaMarca.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T16:44:06.048Z",
+              "WhenOpened": "2025-08-19T03:29:14.02Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarcasNegocio.cs",
+              "DocumentMoniker": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\negocio\\MarcasNegocio.cs",
+              "RelativeDocumentMoniker": "negocio\\MarcasNegocio.cs",
+              "ToolTip": "D:\\Repo GitHub\\WinformsGestionInventario\\WindowsGestionInventario\\negocio\\MarcasNegocio.cs",
+              "RelativeToolTip": "negocio\\MarcasNegocio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:20:27.886Z",
               "EditorCaption": ""
             }
           ]
