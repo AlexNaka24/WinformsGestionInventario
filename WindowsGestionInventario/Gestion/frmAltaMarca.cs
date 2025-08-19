@@ -54,7 +54,7 @@ namespace Gestion
             try
             {
                 listaMarcas = marcasNegocio.listarMarcas();
-
+              
                 dgvMarcas.AutoGenerateColumns = true;
                 dgvMarcas.DataSource = null;
                 dgvMarcas.DataSource = listaMarcas;

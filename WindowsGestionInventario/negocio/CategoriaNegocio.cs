@@ -34,6 +34,34 @@ namespace negocio
             {
                 throw ex;
             }
-        }       
+        }
+        
+        public void agregarCategoria(Categoria nueva)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setConsulta($"INSERT INTO CATEGORIAS (Descripcion) VALUES ('{nueva.Descripcion}')");
+                datos.ejecutarLectura();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void eliminarCategoria(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setConsulta($"DELETE FROM CATEGORIAS WHERE Id = {id}");
+                datos.ejecutarLectura();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

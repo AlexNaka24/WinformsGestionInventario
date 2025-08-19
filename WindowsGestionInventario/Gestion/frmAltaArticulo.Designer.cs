@@ -134,7 +134,7 @@
             this.txtCodigo.Location = new System.Drawing.Point(143, 35);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(205, 20);
-            this.txtCodigo.TabIndex = 8;
+            this.txtCodigo.TabIndex = 0;
             // 
             // txtNombre
             // 
@@ -142,7 +142,7 @@
             this.txtNombre.Location = new System.Drawing.Point(143, 83);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(205, 20);
-            this.txtNombre.TabIndex = 9;
+            this.txtNombre.TabIndex = 1;
             // 
             // txtUrl
             // 
@@ -150,7 +150,7 @@
             this.txtUrl.Location = new System.Drawing.Point(143, 136);
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(205, 20);
-            this.txtUrl.TabIndex = 10;
+            this.txtUrl.TabIndex = 2;
             this.txtUrl.Leave += new System.EventHandler(this.txtUrl_Leave);
             // 
             // txtPrecio
@@ -159,7 +159,7 @@
             this.txtPrecio.Location = new System.Drawing.Point(143, 188);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(205, 20);
-            this.txtPrecio.TabIndex = 11;
+            this.txtPrecio.TabIndex = 3;
             // 
             // txtDescripcion
             // 
@@ -168,7 +168,7 @@
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(318, 219);
-            this.txtDescripcion.TabIndex = 14;
+            this.txtDescripcion.TabIndex = 6;
             // 
             // cboMarca
             // 
@@ -177,7 +177,7 @@
             this.cboMarca.Location = new System.Drawing.Point(143, 241);
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(205, 21);
-            this.cboMarca.TabIndex = 15;
+            this.cboMarca.TabIndex = 4;
             // 
             // cboCategoria
             // 
@@ -186,7 +186,7 @@
             this.cboCategoria.Location = new System.Drawing.Point(143, 290);
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(205, 21);
-            this.cboCategoria.TabIndex = 16;
+            this.cboCategoria.TabIndex = 5;
             // 
             // btnAceptar
             // 
@@ -195,7 +195,7 @@
             this.btnAceptar.Location = new System.Drawing.Point(399, 410);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(124, 35);
-            this.btnAceptar.TabIndex = 17;
+            this.btnAceptar.TabIndex = 7;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = false;
             this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
@@ -207,7 +207,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(399, 490);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(124, 35);
-            this.btnCancelar.TabIndex = 18;
+            this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);

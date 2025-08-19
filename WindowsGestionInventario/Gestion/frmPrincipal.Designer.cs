@@ -46,6 +46,7 @@
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnRecuperar = new System.Windows.Forms.Button();
             this.btnMarcas = new System.Windows.Forms.Button();
+            this.btnCategoria = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListadoArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxImagenArticulo)).BeginInit();
             this.SuspendLayout();
@@ -247,12 +248,25 @@
             this.btnMarcas.UseVisualStyleBackColor = false;
             this.btnMarcas.Click += new System.EventHandler(this.btnMarcas_Click);
             // 
+            // btnCategoria
+            // 
+            this.btnCategoria.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCategoria.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCategoria.Location = new System.Drawing.Point(53, 85);
+            this.btnCategoria.Name = "btnCategoria";
+            this.btnCategoria.Size = new System.Drawing.Size(107, 35);
+            this.btnCategoria.TabIndex = 22;
+            this.btnCategoria.Text = "Categoria";
+            this.btnCategoria.UseVisualStyleBackColor = false;
+            this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(884, 561);
+            this.Controls.Add(this.btnCategoria);
             this.Controls.Add(this.btnMarcas);
             this.Controls.Add(this.btnRecuperar);
             this.Controls.Add(this.btnLimpiar);
@@ -305,6 +319,7 @@
         private System.Windows.Forms.Button btnLimpiar;
         private System.Windows.Forms.Button btnRecuperar;
         private System.Windows.Forms.Button btnMarcas;
+        private System.Windows.Forms.Button btnCategoria;
     }
 }
 

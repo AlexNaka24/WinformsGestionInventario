@@ -93,6 +93,12 @@ namespace Gestion
             btnMarcas.FlatAppearance.MouseOverBackColor = TemaColores.PanelBotones;
             btnMarcas.BackColor = TemaColores.PanelBotones;
             btnMarcas.ForeColor = TemaColores.FuenteIconos;
+
+            btnCategoria.FlatStyle = FlatStyle.Flat;
+            btnCategoria.FlatAppearance.BorderSize = 0;
+            btnCategoria.FlatAppearance.MouseOverBackColor = TemaColores.PanelBotones;
+            btnCategoria.BackColor = TemaColores.PanelBotones;
+            btnCategoria.ForeColor = TemaColores.FuenteIconos;
         }
 
         // metodos
@@ -109,13 +115,9 @@ namespace Gestion
                 dgvListadoArticulos.DataSource = null;
                 dgvListadoArticulos.DataSource = listaArticulos;
 
-                // Ocultar columnas que no quieras mostrar
                 if (dgvListadoArticulos.Columns["UrlImg"] != null)
                     dgvListadoArticulos.Columns["UrlImg"].Visible = false;
-                if (dgvListadoArticulos.Columns["Tipo"] != null)
-                    dgvListadoArticulos.Columns["Tipo"].Visible = false;
 
-                // Mostrar la primera imagen si hay datos
                 if (listaArticulos.Count > 0)
                     cargarImagen(listaArticulos[0].UrlImg);
             }
@@ -155,6 +157,7 @@ namespace Gestion
             btnLimpiar.Cursor = Cursors.Hand;
             btnRecuperar.Cursor = Cursors.Hand;
             btnMarcas.Cursor = Cursors.Hand;
+            btnCategoria.Cursor = Cursors.Hand;
         }
 
         private void dgvListadoArticulos_SelectionChanged(object sender, EventArgs e)
@@ -301,6 +304,13 @@ namespace Gestion
         {
             frmAltaMarca frmAltaMarca = new frmAltaMarca();
             frmAltaMarca.ShowDialog();
+            cargarDatos();
+        }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            frmAltaCategoria frmAltaCategoria = new frmAltaCategoria();
+            frmAltaCategoria.ShowDialog();
             cargarDatos();
         }
     }
