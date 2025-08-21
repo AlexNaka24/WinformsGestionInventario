@@ -158,6 +158,7 @@ namespace Gestion
             btnRecuperar.Cursor = Cursors.Hand;
             btnMarcas.Cursor = Cursors.Hand;
             btnCategoria.Cursor = Cursors.Hand;
+            btnDetalles.Cursor = Cursors.Hand;
         }
 
         private void dgvListadoArticulos_SelectionChanged(object sender, EventArgs e)
@@ -311,6 +312,14 @@ namespace Gestion
         {
             frmAltaCategoria frmAltaCategoria = new frmAltaCategoria();
             frmAltaCategoria.ShowDialog();
+            cargarDatos();
+        }
+
+        private void btnDetalles_Click(object sender, EventArgs e)
+        {
+            Articulo seleccionado = (Articulo)dgvListadoArticulos.CurrentRow.DataBoundItem;
+            frmDetalles frmDetalles = new frmDetalles(seleccionado);
+            frmDetalles.ShowDialog();
             cargarDatos();
         }
     }

@@ -47,6 +47,7 @@
             this.btnRecuperar = new System.Windows.Forms.Button();
             this.btnMarcas = new System.Windows.Forms.Button();
             this.btnCategoria = new System.Windows.Forms.Button();
+            this.btnDetalles = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListadoArticulos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxImagenArticulo)).BeginInit();
             this.SuspendLayout();
@@ -104,7 +105,7 @@
             // 
             this.btnNuevoArticulo.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnNuevoArticulo.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNuevoArticulo.Location = new System.Drawing.Point(714, 309);
+            this.btnNuevoArticulo.Location = new System.Drawing.Point(714, 391);
             this.btnNuevoArticulo.Name = "btnNuevoArticulo";
             this.btnNuevoArticulo.Size = new System.Drawing.Size(124, 35);
             this.btnNuevoArticulo.TabIndex = 5;
@@ -124,7 +125,7 @@
             // 
             this.btnModificar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnModificar.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(714, 391);
+            this.btnModificar.Location = new System.Drawing.Point(714, 448);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(124, 35);
             this.btnModificar.TabIndex = 11;
@@ -136,7 +137,7 @@
             // 
             this.btnEliminar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEliminar.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(714, 470);
+            this.btnEliminar.Location = new System.Drawing.Point(714, 501);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(124, 35);
             this.btnEliminar.TabIndex = 12;
@@ -148,7 +149,7 @@
             // 
             this.btnCerrar.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnCerrar.Font = new System.Drawing.Font("Book Antiqua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.Location = new System.Drawing.Point(53, 470);
+            this.btnCerrar.Location = new System.Drawing.Point(53, 501);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(107, 35);
             this.btnCerrar.TabIndex = 13;
@@ -260,12 +261,25 @@
             this.btnCategoria.UseVisualStyleBackColor = false;
             this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
+            // btnDetalles
+            // 
+            this.btnDetalles.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnDetalles.Font = new System.Drawing.Font("Book Antiqua", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDetalles.Location = new System.Drawing.Point(736, 267);
+            this.btnDetalles.Name = "btnDetalles";
+            this.btnDetalles.Size = new System.Drawing.Size(81, 29);
+            this.btnDetalles.TabIndex = 23;
+            this.btnDetalles.Text = "Ver detalles";
+            this.btnDetalles.UseVisualStyleBackColor = false;
+            this.btnDetalles.Click += new System.EventHandler(this.btnDetalles_Click);
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(884, 561);
+            this.Controls.Add(this.btnDetalles);
             this.Controls.Add(this.btnCategoria);
             this.Controls.Add(this.btnMarcas);
             this.Controls.Add(this.btnRecuperar);
@@ -320,6 +334,7 @@
         private System.Windows.Forms.Button btnRecuperar;
         private System.Windows.Forms.Button btnMarcas;
         private System.Windows.Forms.Button btnCategoria;
+        private System.Windows.Forms.Button btnDetalles;
     }
 }
 
