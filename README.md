@@ -5,7 +5,7 @@
 ![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red?style=flat-square)
 
 ## 📖 Description
-Inventory Management is a desktop application built in **C# with WinForms** for managing product inventory.  
+Is a desktop application built in **C# with WinForms** for managing product inventory.  
 Ideal for **small to medium businesses**.
 
 ## 🚀 Key Features
